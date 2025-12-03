@@ -1,8 +1,15 @@
 # C Programming - A Modern Approach - 2nd_Ed(C89, c99) - by King.
 
-# All Exercise implementation with topics.
+# All Exercises are implemented with topics.
 
-# The things we learned.
+## The things we learned.
 
-## What is the function?
-- Function is simply the series of statements that is combine together by given some name.
+### 1. What is the function?
+- Function is simply the series of statements that is combine together by name given.
+
+### 2. What is identifier?
+- The Name of the variables, function, struct and so on which give identity to something is called identifier.
+
+### 3. Good way to compile C code.
+
+- 
