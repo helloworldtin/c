@@ -11,5 +11,13 @@
 - The Name of the variables, function, struct and so on which give identity to something is called identifier.
 
 ### 3. Good way to compile C code.
-
-- 
+```cmd
+gcc -O -Wall -W -pedantic -ansi -std=99 -o a.out a.c
+```
+- -O -> Optimization
+- -Wall -> Shows all common warning.
+- -W -> extra warnings
+- -pedantic -> enforce strict language rules
+- -ansi -> use ANSI C
+- -std=99 -> Uses C99 version
+- -o -> where executable should be locate
