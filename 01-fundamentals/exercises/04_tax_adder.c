@@ -11,7 +11,6 @@ int main(void){
   float userAmount;
   printf("Enter the amount $: ");
   scanf("%f",&userAmount);
-  
 
   float amountWithTax = userAmount + ( userAmount * (TAX_PER/100.0));
 
