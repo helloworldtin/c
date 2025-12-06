@@ -2,7 +2,7 @@
 
 # All Exercises are implemented with topics.
 
-## The things we learned.
+## Fundaments.
 
 ### 1. What is the function?
 - Function is simply the series of statements that is combine together by name given.
@@ -21,3 +21,10 @@ gcc -O -Wall -W -pedantic -ansi -std=99 -o a.out a.c
 - -ansi -> use ANSI C
 - -std=99 -> Uses C99 version
 - -o -> where executable should be locate
+
+## Formatted IO
+
+### printf function
+- "printf" is the function which take the string and infinite number of
+expression as the arguments.
+-  number of conversion specifications = nums of expression
