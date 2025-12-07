@@ -10,3 +10,35 @@
  Balance remaining after second payment: $19425.25
  Balance remaining after third payment: $19135.71
 */
+
+#include <stdio.h>
+
+int main(void){
+  printf("Enter the amount of loan: ");
+  float principalAmount;
+  scanf("%f",&principalAmount);
+
+  printf("Enter the interest rate: ");
+  float interestRate;
+  scanf("%f",&interestRate);
+
+  printf("Enter the monthly payments: ");
+  float monthlyPayments;
+  scanf("%f",&monthlyPayments);
+  float simpleInterest;
+  simpleInterest =( principalAmount * interestRate * (1.0/12.0))/100;
+
+
+  principalAmount = (principalAmount - (monthlyPayments - simpleInterest));
+  printf("Balance remaining after first payments: %.2f\n",principalAmount);
+ 
+  simpleInterest =( principalAmount * interestRate * (1.0/12.0))/100;
+  principalAmount = (principalAmount - (monthlyPayments - simpleInterest));
+  printf("Balance remaining after second payments: %.2f\n",principalAmount);
+
+  simpleInterest =( principalAmount * interestRate * (1.0/12.0))/100;
+  principalAmount = (principalAmount - (monthlyPayments - simpleInterest));
+  printf("Balance remaining after second payments: %.2f\n",principalAmount);
+
+  return 0;
+}
