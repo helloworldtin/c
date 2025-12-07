@@ -27,4 +27,10 @@ gcc -O -Wall -W -pedantic -ansi -std=99 -o a.out a.c
 ### printf function
 - "printf" is the function which take the string and infinite number of
 expression as the arguments.
--  number of conversion specifications = nums of expression
+-  number of conversion specifications = numbers of expression.
+
+### Escape Sequence Character.
+- There are such types of characters that that cannot be directly inserted in the strings. So they help both coder and the compiler to add theses types of character, such as (quote)" new line(\n) and so on.
+
+### scanf function
+- "scanf" is same as the printf rather this is used to input the as many values and as what format we want.No Limit.
