@@ -34,3 +34,11 @@ expression as the arguments.
 
 ### scanf function
 - "scanf" is same as the printf rather this is used to input the as many values and as what format we want.No Limit.
+
+## Expressions
+
+### Arithmetics Operator
+- operation on (int) and (float) is always results as float such as 1 + 1.2f = 2.2f.
+- int/int = truncated int even the result has float (x.y) in truncated division all after (.) will be ignored.
+- The % operator requires integer operands; if either operand is not an integer,
+the program won't compile.
