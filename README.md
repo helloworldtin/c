@@ -37,8 +37,28 @@ expression as the arguments.
 
 ## Expressions
 
-### Arithmetics Operator
+### Arithmetics Operator(left associativity)
 - operation on (int) and (float) is always results as float such as 1 + 1.2f = 2.2f.
 - int/int = truncated int even the result has float (x.y) in truncated division all after (.) will be ignored.
 - The % operator requires integer operands; if either operand is not an integer,
 the program won't compile.
+
+### Assignment Operator(right associativity)
+- In C the '=' is also the operator like + because if we use '+' operator to add two number we get one result that is sum. So, in the assignment operator will also produce some result.
+```c
+ float a = 9043.48f;
+ int b = a; // the value of b will become 9043 because '=' operator remove the value after decimal.
+
+ // associative example
+ i = j = k = 0;
+ i = (j = (k = 0))
+ ```
+
+ - assignment is always on lvalues.
+
+ - Compound Operator (right associativity)
+  - i = i + 1 which is equal to i += 1;
+  - also possible i += j += k
+
+- increment operator.
+  - (++i or i++) and (--i or i--)
