@@ -13,7 +13,7 @@ int main(void){
 
   for(int i = 0; user_decimal !=0 ; i++){
     int last_digit = user_decimal % 8;
-    user_decimal /= 10;
+    user_decimal /= 8;
     ans = last_digit * factor + ans;
     factor *= 10;
   }
