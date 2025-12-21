@@ -62,3 +62,22 @@ the program won't compile.
 
 - increment operator.
   - (++i or i++) and (--i or i--)
+
+## Types of Statements.
+- Selection Statement: if and switch statement.
+- Iteration Statement: while,for,do.
+- Jump Statements: return,break,continue,goto.
+- Compound Statement: function group of statements.
+- Null Statement: Perform no action.
+
+
+## Relation Operator 
+- <,>,<=,>=
+- Less precedence than arithmetic operator. (left associative)
+- return either 0 or 1.(0 when relation is not correct)
+
+## Equability Operator.
+- ==, !=
+- Less precedence than Relation Operator
+- return either 0 or 1.(0 when condition don't match and 1 when condition matched)
+
