@@ -63,14 +63,6 @@ the program won't compile.
 - increment operator.
   - (++i or i++) and (--i or i--)
 
-## Types of Statements.
-- Selection Statement: if and switch statement.
-- Iteration Statement: while,for,do.
-- Jump Statements: return,break,continue,goto.
-- Compound Statement: function group of statements.
-- Null Statement: Perform no action.
-
-
 ## Relation Operator 
 - <,>,<=,>=
 - Less precedence than arithmetic operator. (left associative)
@@ -81,3 +73,22 @@ the program won't compile.
 - Less precedence than Relation Operator
 - return either 0 or 1.(0 when condition don't match and 1 when condition matched)
 
+## Short Circuit Evaluation.
+- (i != 0 ) && ( j / i > 0)
+- In this expression if the value if is = 0 then only the left hand operation will evaluated right side is ignored because i is already equal to zero.This is known as Short Circuit Evaluation.
+
+## Logical Operator.
+- !(logical Negation), && (logical and), ||(Logical OR)
+- This operator follow the short circuit evaluation.
+- The precedence of the logical negation is higher than "and" and "or" logical operator and that is right associative. And other two are right associative.
+
+## Types of Statements.
+- Selection Statement: if and switch statement.
+- Iteration Statement: while,for,do.
+- Jump Statements: return,break,continue,goto.
+- Compound Statement: function group of statements.
+- Null Statement: Perform no action.
+
+
+## if and else clause (Selection Statement)
+- 'Dangling else' means the else clause will belong to the nearest if clause. So we need to use braces to avoid this problem.
