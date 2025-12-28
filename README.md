@@ -92,3 +92,7 @@ the program won't compile.
 
 ## if and else clause (Selection Statement)
 - 'Dangling else' means the else clause will belong to the nearest if clause. So we need to use braces to avoid this problem.
+
+## Switch Statements
+- The statement should only be in value switch(int value);
+- The label must be a const statements.case constant expression: other statements.
