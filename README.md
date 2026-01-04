@@ -96,3 +96,9 @@ the program won't compile.
 ## Switch Statements
 - The statement should only be in value switch(int value);
 - The label must be a const statements.case constant expression: other statements.
+
+## Loops
+### Comma operator
+- We can initialize more than one variable in for statement.
+- for(int i = 0,j = 0; j < 10; j++);
+- we can omit the initialization to the other line. And increment in body of loop like while loop.
