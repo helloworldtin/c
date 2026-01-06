@@ -9,6 +9,7 @@ int main(void) {
 
   while(1);
     // this is also same as above.
+    // this may couse infinite loop by executing empty statement again and agin.
   
   return 0;
 }
