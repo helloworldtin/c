@@ -15,15 +15,14 @@ int main(void){
   printf("Enter starting day of the week(1=Sun, 7=Sat): ");
   scanf("%d", &starting_day);
 
-  for(int i = 1; i<=starting_day; i++){
-    printf(" ");
+  starting_day -= 1;
+  for(int i = 1; i <= starting_day; i++){
+      printf("   ");
   }
   for(int i = 1; i <= month_day_count; i++){
-    if((i + starting_day)%7 == 0) printf("\n");
-    else printf("%d ", i);
+      printf("%-2.d ", i);
+      if((starting_day + i) % 7 == 0) printf("\n");
   }
   printf("\n");
-
   return 0;
 }
-

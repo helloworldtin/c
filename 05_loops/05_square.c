@@ -8,7 +8,7 @@ int main(void){
 
   scanf("%d",&n);
 
-  i = 1; 
+  i = 1;
   odd = 3;
 
   for(square = 1; i <= n; odd += 2){

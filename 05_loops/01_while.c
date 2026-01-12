@@ -17,7 +17,7 @@ int main(void){
   scanf("%d",&n);
 
   ii = 1;
-  
+
   while(i <= n){
     printf("%10d%10d\n",i, ii * ii);
     ii++;
