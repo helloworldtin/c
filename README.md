@@ -102,3 +102,9 @@ the program won't compile.
 - We can initialize more than one variable in for statement.
 - for(int i = 0,j = 0; j < 10; j++);
 - we can omit the initialization to the other line. And increment in body of loop like while loop.
+
+## Basic Types
+### Integers types
+- 2^n - 1 is the max number of int the n bit can hold.
+- to store constant number we use normal
+- to store octal the number should always start from 0 and 0x... for the hex.
