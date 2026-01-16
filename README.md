@@ -108,3 +108,29 @@ the program won't compile.
 - 2^n - 1 is the max number of int the n bit can hold.
 - to store constant number we use normal
 - to store octal the number should always start from 0 and 0x... for the hex.
+
+### Reading and writing of the Integers (Conversion Specifier);
+- u => unsinged int
+- o => octal int
+- x => Hexadecimal
+- hd => short int
+- ld => long int
+- lld => long long int
+- lu => long unsigned
+- llu => long long unsigend
+
+### Reading and writing of the Floating Point Values(Conversion Specifiers)
+
+- e -> Exponent Form
+- f -> Fixed pont
+- g -> General Form. Means can accept both. e and g
+
+- le -> to get double value in exponent format
+- lf -> To get the double value in point format.
+- lg -> To get the double value in the general form.
+
+- Le -> same as le witht but long double
+- LF -> same
+- LG -> same
+
+- NOTE: We Don't need to specifc that for printf.
