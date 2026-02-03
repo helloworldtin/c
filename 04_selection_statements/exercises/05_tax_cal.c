@@ -1,5 +1,7 @@
 /*Write a program that asks the user to enter the amount of tax_amountable income, then displays the tax due.*/
 
+#include <stdio.h>
+
 int main(void){
   float income_amount;
 

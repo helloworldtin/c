@@ -9,6 +9,8 @@ the departure times, also expressed in minutes since midnight. For example, 13:1
 midnight) than to any of the other departure times.
 */
 
+#include <stdio.h>
+
 int main(void){
   int hour;
   int min;

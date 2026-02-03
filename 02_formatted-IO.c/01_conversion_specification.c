@@ -15,7 +15,7 @@ int main(void){
   // and convert that in to character accordingly.
   // e.g %d is the placeholder for int
   // %f for the float and so on.
-  
+
   printf("i = %d | j = %d | x = %f | y = %f",i,j,x,y);
   return 0;
 }

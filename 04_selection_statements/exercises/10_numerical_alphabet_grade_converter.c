@@ -19,7 +19,7 @@ int main(void){
     printf("This is bad grade\n");
     return -1;
   }
-  
+
   int check_digit = numerical_grade / 10;
 
   switch(check_digit){
@@ -47,6 +47,6 @@ int main(void){
     default:
       printf("You have wrong grade man\n");
   }
-  
+
   return 0;
 }

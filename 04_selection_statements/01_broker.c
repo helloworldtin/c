@@ -18,7 +18,7 @@ int main(void){
     commission = 155.00f + .0011f * value;
   else
     commission = 255.00f + .0009f * value;
-  
+
   if(commission < 39.00f){
     commission = 39.00f;
   }

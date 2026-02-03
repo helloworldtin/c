@@ -12,6 +12,6 @@ int main(void){
   if(is_hacker){
     printf("Hello, World\n");
   }
-  
+
   return 0;
 }

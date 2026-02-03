@@ -31,7 +31,7 @@ int main(void){
 
   principalAmount = (principalAmount - (monthlyPayments - simpleInterest));
   printf("Balance remaining after first payments: %.2f\n",principalAmount);
- 
+
   simpleInterest =( principalAmount * interestRate * (1.0/12.0))/100;
   principalAmount = (principalAmount - (monthlyPayments - simpleInterest));
   printf("Balance remaining after second payments: %.2f\n",principalAmount);

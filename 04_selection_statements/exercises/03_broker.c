@@ -3,7 +3,7 @@
 int main(void){
   int share_count;
   float price_per_share;
-  float commission; 
+  float commission;
 
   printf("Enter the number of share: ");
   scanf("%d",share_count);

@@ -1,9 +1,9 @@
 // Write a program that uses printf to display the following picture on the screen:
 /*
     *.                 *
-     *             * 
-      *      * 
-        * 
+     *             *
+      *      *
+        *
 */
 
 #include <stdio.h>
@@ -22,7 +22,7 @@ int main(void){
    for(int j = n - 2 - i ; j >= 0; j--){
     printf("  ");
    }
-   if(i != n -1) 
+   if(i != n -1)
     printf("*");
 
    printf("\n");

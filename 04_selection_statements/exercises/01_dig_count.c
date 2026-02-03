@@ -20,7 +20,7 @@ int main(void){
   }else if(number >= 1000 && number <= 9999){
     printf("The number has four digit\n");
   }else{
-    printf9("The number is invalid\n");
+    printf("The number is invalid\n");
   }
   return 0;
 }
