@@ -134,3 +134,6 @@ the program won't compile.
 - LG -> same
 
 - NOTE: We Don't need to specifc that for printf.
+
+## Arrays
+- Using macros for the size of the array is excellent choice.

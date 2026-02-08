@@ -6,7 +6,7 @@
 int main(void){
   int speed;
 
-  printf("Enter the speed(knots): ",&speed);
+  printf("Enter the speed(knots): ");
   scanf("%d",&speed);
 
   if(speed < 1){
