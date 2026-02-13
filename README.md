@@ -137,3 +137,10 @@ the program won't compile.
 
 ## Arrays
 - Using macros for the size of the array is excellent choice.
+
+- ### Array Initialization datatype
+  - datatype arr[10];
+  - int arr[10] = {1,2,3,4,5,6,7,8,9,10} 
+  - int arr[10] = {1,2} .... [1,2,0...0]
+  - int arr[10] = {0}
+  - Designated initializer int arr[25] = {[2]=100, [2] = 100}
