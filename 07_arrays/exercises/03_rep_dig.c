@@ -9,9 +9,9 @@
 int main(void){
 
     long digit;
-    bool seen_digit[10]  = {false};
 
     do{
+        bool seen_digit[10]  = {false};
         printf("Enter the digit: ");
         scanf("%ld",&digit);
 
@@ -23,12 +23,11 @@ int main(void){
 
             if(seen_digit[last_digit] == true){
                 printf("The %d digit is repeating\n",last_digit);
-                break;
             }else {
                 seen_digit[last_digit] = true;
             }
         }
-    }while(digit > 0);
+    }while(true);
 
     return 0;
 }
