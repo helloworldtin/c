@@ -27,10 +27,11 @@ int main(void){
     while(i >= 0){
         int prev_i = i;
         while(sentence[i] != ' ' && i >= 0) i--;
+
         for(int j = i + 1; j <= prev_i; j++){
             putchar(sentence[j]);
         }
-        if(i > 0)putchar(' ');
+        if(i > 0) putchar(' ');
         i--;
     }
     putchar(ch);
