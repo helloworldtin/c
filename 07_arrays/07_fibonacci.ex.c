@@ -2,7 +2,7 @@
 two preceding numbers. Write a program fragment that declares an array named
 fi b numbers of length 40 and fills the array with the first 40 Fibonacci numbers. Hint:
 Fill in the first two numbers individually, then use a loop to compute the remaining num-
-b e r s . */
+bers . */
 
 #include <stdio.h>
 

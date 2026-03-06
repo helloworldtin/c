@@ -144,3 +144,47 @@ the program won't compile.
   - int arr[10] = {1,2} .... [1,2,0...0]
   - int arr[10] = {0}
   - Designated initializer int arr[25] = {[2]=100, [2] = 100}
+## Function
+- When we pass the value in the argument like 10 in argument x. Then 10 will be copied in x.
+
+- ### Structure of the function
+ ```c
+     return-type function-name (parameters){
+        declarations
+        statements
+     }
+ ```
+
+### Function Deceleration
+- if we don't declare the function and used above there will be no error.
+Because compiler assume that if function has do definition it will return int by default,
+and we will get error in run time. So, to prevent from this error we need to use function deceleration
+so it could figure out return type and the parameters correctly.
+- The structure is like return-type (parameters);
+
+- C99 has adopted the rule that either a declaration or a definition of a function
+must be present prior to any call of the function. Calling a function for which the
+compiler has not yet seen a declaration or definition is an error.
+
+### 2-D array as function parameters.
+- We need to pass the value of column in the 2-d array that is mandatory.
+- But we can ignore that in 1-D array.
+
+### VLA(Variable Length Array)
+1. For 1-D array
+  - int hello(int n, int a[n]); Note: n should be at the first
+  - int hello(int n, int a[*]); // this is because name is not required in the function prototype only.
+  - int concatenation(int n, int m, int a[n], int b[m], int c[m + n]);
+
+2. For 2-D array we can do the same.
+  - int car(int n, int m, int a[n][m]);
+  - int car(int, int, int[*][*]);
+
+### Compound Literals and Program Exit.
+
+- We can pass argument as the array directly. How?
+- f(int arr[], int n);
+- f((int[]{1,2,3,4}, 4));
+- By adding const we can make read only.
+- we can exit form the program by using exit() function from stdlib
+- return statement terminates the function exit function terminates the whole program. And there are EXIT_SUCCESS and EXIT_FAILURE Macros to exit program according.
