@@ -3,6 +3,7 @@
 // digit (829, 3) returns 8. If k is greater than the number of digits in n, have the fune-
 // tion return O.
 
+#include <stdio.h>
 
 int digit(int n, int k);
 
@@ -17,10 +18,11 @@ int digit(int n, int k)
 {
     if(k > n) return 0;
 
-    for(int i = 1; i <= k; i++){
+    // because we already point at zero
+    for(int i = 1; i <= k - 1; i++){
         n /= 10;
     }
 
-    return n;
+    return n % 10;
 
 }
