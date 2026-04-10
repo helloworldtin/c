@@ -188,3 +188,5 @@ compiler has not yet seen a declaration or definition is an error.
 - By adding const we can make read only.
 - we can exit form the program by using exit() function from stdlib
 - return statement terminates the function exit function terminates the whole program. And there are EXIT_SUCCESS and EXIT_FAILURE Macros to exit program according.
+
+## Static Local variable.
