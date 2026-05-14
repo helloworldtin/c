@@ -189,4 +189,21 @@ compiler has not yet seen a declaration or definition is an error.
 - we can exit form the program by using exit() function from stdlib
 - return statement terminates the function exit function terminates the whole program. And there are EXIT_SUCCESS and EXIT_FAILURE Macros to exit program according.
 
-## Static Local variable.
+## Pointers
+
+### Address and Indirection
+- int *p = &variable. Will provide us the address of the variable.
+- int val = *p; Will give the value of that pointer which is know as indirection operator.
+- ```c
+  p = & i;
+  g = & j;
+  i = 1;
+
+  *q = *p;
+
+  /*
+   * In this case the the value of pointer p 
+   * will be copy to the variable q points to And
+   * q will hold that memory address 
+   */
+ ```
