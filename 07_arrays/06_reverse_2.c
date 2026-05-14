@@ -3,7 +3,7 @@
 int main(void){
     int i, n;
 
-    printf("How many numbers do you wnat to reverse: ");
+    printf("How many numbers do you want to reverse: ");
     scanf("%d", &n);
 
     int a[n];
