@@ -207,3 +207,4 @@ compiler has not yet seen a declaration or definition is an error.
    * q will hold that memory address 
    */
  ```
+  - void f(const int *p); This means this pointer is pointing to int which value cannot be modifed.
