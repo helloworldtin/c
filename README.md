@@ -208,3 +208,10 @@ compiler has not yet seen a declaration or definition is an error.
    */
  ```
   - void f(const int *p); This means this pointer is pointing to int which value cannot be modifed.
+
+# Pointers and Array
+- We can only (and only) int to the pointer and subtract int value and subtract one ponter from another one only this much.
+- Pointer to compund literals
+- ```c
+  int *p = = (int []) {1,2,3,4,45};
+ ```
