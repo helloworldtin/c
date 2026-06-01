@@ -215,3 +215,38 @@ compiler has not yet seen a declaration or definition is an error.
 - ```c
   int *p = = (int []) {1,2,3,4,45};
  ```
+
+# Strings
+## Strings literal
+- A string literal is a sequence of characters enclosed within double quotes:
+- we can use \ char to join to string literals. Or we can use "" "" in for no indentation problem
+- ```c
+  #include <stdio.h>
+  
+  int main(void)
+  {
+      printf("\59\n");
+      printf("What the fuck you done\
+  this is cool btw");
+  
+      printf("The car is the best thing in the world. "
+          "You are the best");
+      return 0;
+  }
+ ```
+- ```c
+    #include <stdio.h>
+    /* 1 this is known as program parameter
+    *which is supplied while running the program.
+    *
+    *
+    *argc = argument count, argv = argument vector */
+    int main(int argc, char *argv[]){
+        int i ;
+    
+        for(i = 0; i < argc; i++){
+            puts(argv[i]);
+        }
+        return 0;
+}
+```
