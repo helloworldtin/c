@@ -250,3 +250,7 @@ compiler has not yet seen a declaration or definition is an error.
         return 0;
 }
 ```
+# The Preprocessor
+- Preprocessor is the software that runs before the code compilation.
+- Simple (Object-like) macro has the structure #define identifier replacement-list
+- Parameterize Macros structure = #define identifier (x1, x2, .... xn) replacement-list

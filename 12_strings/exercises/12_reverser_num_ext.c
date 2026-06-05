@@ -9,7 +9,6 @@ bool read_word(char *str);
 int main(void){
     int i = 0, j;
     char words[WORDS_COUNT][STR_LEN + 1];
-    char current_word[STR_LEN + 1];
 
     printf("Please enter the sentence ends with(., ?, !): ");
 
@@ -19,7 +18,7 @@ int main(void){
         }
     }
 
-    for(j = i -1; j >= 0; j--){
+    for(j = i - 1; j >= 0; j--){
         printf("%s ", words[j]);
     }
 
@@ -30,7 +29,6 @@ int main(void){
 
 bool read_word(char *str)
 {
-    char *ptr = str;
     char ch;
 
     while((ch = getchar()) != ' '){

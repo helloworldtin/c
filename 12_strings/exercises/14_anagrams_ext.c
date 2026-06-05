@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdbool.h>
+#include <string.h>
 
 bool is_letter_exist(const char *word, char letter);
 bool are_anagrams(const char *word1, const char *word2);
@@ -30,6 +31,9 @@ bool is_letter_exist(const char *word, char letter)
 
 bool are_anagrams(const char *word1, const char *word2)
 {
+    if(strlen(word1) != strlen(word2))
+        return false;
+
     while(*word1){
         if(!is_letter_exist(word2, *word1))
             return false;
