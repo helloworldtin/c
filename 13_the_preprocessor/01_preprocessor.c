@@ -66,10 +66,23 @@ GENERIC_MAX(float);
     printf("Passed test: %s\n",#condition): \
     printf(__VA_ARGS__))
 
+// function identifier
+#define  FUNCTION_CALLED() printf("%s called\n", __func__);
+#define  FUNCTION_RETURNS() printf("%s returns\n", __func__);
+
+
+void f(void)
+{
+    FUNCTION_CALLED();
+    int sum = 100 + 10;
+    PRINT_INT(sum);
+    FUNCTION_RETURNS();
+}
 
 int main(){
     int max_voltage = 1;
     int voltage = 10;
     TEST(voltage <= max_voltage, "Voltage %d exceed %d\n",voltage, max_voltage);
+    f();
     return 0;
 }
