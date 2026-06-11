@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-
+// TODO:(NOT Completed)
 #define  MAX_REMIND 50 /* maximum number of reminder */
 #define  MSG_LEN 60 /* max length of remainder message */
 

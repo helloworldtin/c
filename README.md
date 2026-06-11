@@ -37,7 +37,7 @@ expression as the arguments.
 
 ## Expressions
 
-### Arithmetics Operator(left associativity)
+### Arithmetic Operator(left associativity)
 - operation on (int) and (float) is always results as float such as 1 + 1.2f = 2.2f.
 - int/int = truncated int even the result has float (x.y) in truncated division all after (.) will be ignored.
 - The % operator requires integer operands; if either operand is not an integer,
@@ -122,18 +122,18 @@ the program won't compile.
 ### Reading and writing of the Floating Point Values(Conversion Specifiers)
 
 - e -> Exponent Form
-- f -> Fixed pont
+- f -> Fixed Form
 - g -> General Form. Means can accept both. e and g
 
 - le -> to get double value in exponent format
 - lf -> To get the double value in point format.
 - lg -> To get the double value in the general form.
 
-- Le -> same as le witht but long double
+- Le -> same as le with but long double
 - LF -> same
 - LG -> same
 
-- NOTE: We Don't need to specifc that for printf.
+- NOTE: We Don't need to specific that for printf.
 
 ## Arrays
 - Using macros for the size of the array is excellent choice.
@@ -254,3 +254,6 @@ compiler has not yet seen a declaration or definition is an error.
 - Preprocessor is the software that runs before the code compilation.
 - Simple (Object-like) macro has the structure #define identifier replacement-list
 - Parameterize Macros structure = #define identifier (x1, x2, .... xn) replacement-list
+
+# Writing Large Programs
+- We can can define Macro from the command line using -DMACRO_NAME=VALUE. If you don't pass any value it will be 1 and we can un-define macro by add flag -U MACRO_NAME
