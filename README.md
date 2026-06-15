@@ -257,3 +257,9 @@ compiler has not yet seen a declaration or definition is an error.
 
 # Writing Large Programs
 - We can can define Macro from the command line using -DMACRO_NAME=VALUE. If you don't pass any value it will be 1 and we can un-define macro by add flag -U MACRO_NAME
+
+# Structures, Unions and Enumeration
+- Structure is the combination of different kind of data in consecutive memory localhost. The field of the structure is called members.
+
+- Union are is structure like data structure but it will allocate the memory adders required for the largest members of the union. So, we can add or use only one value of the union.
+- enumerated = (whose values are listed)
