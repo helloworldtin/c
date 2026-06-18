@@ -233,7 +233,6 @@ compiler has not yet seen a declaration or definition is an error.
           "You are the best");
       return 0;
   }
- ```
 - ```c
     #include <stdio.h>
     /* 1 this is known as program parameter
@@ -263,3 +262,12 @@ compiler has not yet seen a declaration or definition is an error.
 
 - Union are is structure like data structure but it will allocate the memory adders required for the largest members of the union. So, we can add or use only one value of the union.
 - enumerated = (whose values are listed)
+
+# Advanced Uses of Pointers
+## Memory allocation function from <stdlib.h>
+- malloc - Allocates a block of memory but doesn't initialize it.
+- calloc - Allocates a block of memory and clears it.
+- realloc - Resize a previously allocated block of memory.
+- void *value is a "generic" pointer which is just a memory address.
+- NULL pointer is false value and all other are true
+- Dangling Pointers are such pointer whose memeory location is already free but had the location saved in that variable.
