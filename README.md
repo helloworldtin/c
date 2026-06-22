@@ -237,8 +237,6 @@ compiler has not yet seen a declaration or definition is an error.
     #include <stdio.h>
     /* 1 this is known as program parameter
     *which is supplied while running the program.
-    *
-    *
     *argc = argument count, argv = argument vector */
     int main(int argc, char *argv[]){
         int i ;
@@ -247,8 +245,8 @@ compiler has not yet seen a declaration or definition is an error.
             puts(argv[i]);
         }
         return 0;
-}
-```
+    }
+
 # The Preprocessor
 - Preprocessor is the software that runs before the code compilation.
 - Simple (Object-like) macro has the structure #define identifier replacement-list
@@ -271,3 +269,7 @@ compiler has not yet seen a declaration or definition is an error.
 - void *value is a "generic" pointer which is just a memory address.
 - NULL pointer is false value and all other are true
 - Dangling Pointers are such pointer whose memeory location is already free but had the location saved in that variable.
+
+# Declarations
+- extern storage class means. Hey this is the variable which is declare in another file or in the file scope of this file. Don't worry about to allocate storage for it.
+- register storage class means, Hey put this variable in the register memory if possible. Since register memory don't have address we can't use pointer on them.
