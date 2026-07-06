@@ -11,8 +11,8 @@
 - The Name of the variables, function, struct and so on which give identity to something is called identifier.
 
 ### 3. Good way to compile C code.
-```cmd
-gcc -O -Wall -W -pedantic -ansi -std=99 -o a.out a.c
+```bash
+  gcc -O -Wall -W -pedantic -ansi -std=99 -o a.out
 ```
 - -O -> Optimization
 - -Wall -> Shows all common warning.
@@ -233,6 +233,7 @@ compiler has not yet seen a declaration or definition is an error.
           "You are the best");
       return 0;
   }
+    ```
 - ```c
     #include <stdio.h>
     /* 1 this is known as program parameter
@@ -246,6 +247,7 @@ compiler has not yet seen a declaration or definition is an error.
         }
         return 0;
     }
+    ```
 
 # The Preprocessor
 - Preprocessor is the software that runs before the code compilation.
@@ -273,3 +275,21 @@ compiler has not yet seen a declaration or definition is an error.
 # Declarations
 - extern storage class means. Hey this is the variable which is declare in another file or in the file scope of this file. Don't worry about to allocate storage for it.
 - register storage class means, Hey put this variable in the register memory if possible. Since register memory don't have address we can't use pointer on them.
+
+# Low Level Programming
+- Bitwise operator is only used in int data types.
+- Idiom for manipulating specific bit of int data.
+```c
+ int main(void)
+ {
+     // Setting a bit,
+     i |= 1 << j; /* Set big j meaning make the bit j 1 */
+
+     // Clearing a bit
+     i &= ~(1 << j); /* Set the value of bit j to 0 */
+
+     // Testing a bit
+     if(i & 1 << j) /* Test bit j is on or what */
+         // do some thing
+ }
+  ```
