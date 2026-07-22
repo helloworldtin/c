@@ -293,3 +293,7 @@ compiler has not yet seen a declaration or definition is an error.
          // do some thing
  }
   ```
+
+# Input/Output
+- Stream is the src and destination where data is coming from and where data is going to.
+- We can use < indirection input to give a file for the input stream(just like keyboard) and > for output stream.
