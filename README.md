@@ -297,3 +297,8 @@ compiler has not yet seen a declaration or definition is an error.
 # Input/Output
 - Stream is the src and destination where data is coming from and where data is going to.
 - We can use < indirection input to give a file for the input stream(just like keyboard) and > for output stream.
+
+# Library support for Number and character data.
+
+- <float.h> consists numbers of macros related about float, dobule and long double.
+- <limits.h> consists numbers of macros related to range of int  and Char(char is also int) data types.
